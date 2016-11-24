@@ -33,4 +33,4 @@ git push origin master
 git pull origin master
 ```
 
-Für mehr siehe: !([oh,shit, git!](http://ohshitgit.com/)
+Für mehr siehe: ![oh,shit, git!](http://ohshitgit.com/)
