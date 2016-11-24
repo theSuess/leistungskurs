@@ -14,7 +14,7 @@ git add .
 git commit
 ```
 
-## Commits angzeigen
+## Commits anzeigen
 ```
 git log
 ```
