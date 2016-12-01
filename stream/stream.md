@@ -29,7 +29,8 @@ Wichtig dafür ist, der Decorator-Stream einen Stream als Konstruktor Argument a
 ~~~csharp
 using(FileStream fs = File.Open("test",FileMode.Create))
 using(GZipStream gs = new GZipStream(fs,CompressionMode.Compress))
+using(StreamWriter sw = new StreamWriter(gs))
 {
-
+	sw.WriteLine("123");
 }
 ~~~
