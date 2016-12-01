@@ -33,4 +33,19 @@ git push origin master
 git pull origin master
 ```
 
+## Branches auflisten
+```
+git branch
+```
+
+## Einen neuen Branch erstellen
+```
+git branch <name>
+```
+
+## Branch wechseln
+```
+git checkout <name>
+```
+
 Für mehr siehe: [oh,shit, git!](http://ohshitgit.com/)
