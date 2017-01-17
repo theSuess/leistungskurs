@@ -102,8 +102,6 @@ var s = $"{p.Name} is {p.Age} year{{s}} old";
 
 # v7.0
 
-## param Schlüsselwort auf IEnumerable<T>
-
 ## Deklarationsausdrücke auf `out`
 
 Vorher:
