@@ -67,6 +67,35 @@ Console.WriteLine(query.Count()); // 6
 
 ## Caller-Info Attribute
 
+~~~csharp
+using System;
+using System.Runtime.CompilerServices;
+public class CallerInfoDemo
+{
+    public static void Main()
+    {
+        ShowCallerInfo();
+        Console.ReadKey();
+    }
+    public static void ShowCallerInfo([CallerMemberName] 
+      string callerName = null, [CallerFilePath] string 
+      callerFilePath = null, [CallerLineNumber] int callerLine=-1)
+    {
+        Console.WriteLine("Caller Name: {0}", callerName);
+        Console.WriteLine("Caller FilePath: {0}", callerFilePath);
+        Console.WriteLine("Caller Line number: {0}", callerLine);
+    }
+}
+~~~
+
+Usage:
+
+~~~csharp
+Caller Name: Main
+Caller FilePath: h:\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1\Class1.cs
+Caller Line number: 7 
+~~~
+
 # v6.0
 
 ## Exception Filters
