@@ -2,6 +2,10 @@ Versucht, die untenstehenden aufgabenstellungen in einer Programmiersprache
 eurer Wahl (__nicht__ C#,JavaScript,Python) zu lösen. Es gibt keine testcases oder andere
 Angaben, probiert einfach mal neue Sprachen aus!
 
+Hilfreiche Websites:
+[glot.io](https://glot.io)
+[learnxinyminutes](https://learnxinyminutes.com/)
+
 # Der gestresste Lehrer
 
 Ein Lehrer muss jeden Tag oft das Stockwerk wechseln. Um
